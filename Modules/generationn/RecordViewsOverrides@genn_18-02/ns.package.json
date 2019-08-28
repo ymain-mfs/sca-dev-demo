@@ -1,0 +1,14 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/RecordViews@1.0.1/Templates/recordviews.tpl" : "Templates/recordviews.tpl",
+        "suitecommerce/RecordViews@1.0.1/JavaScript/RecordViews.View.js" : "JavaScript/RecordViews.View.js"
+    }
+}

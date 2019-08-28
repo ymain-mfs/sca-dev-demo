@@ -4,10 +4,13 @@ LocalDistribution/
 Modules/suitecommerce/
 Modules/third_parties/
 
-# files
-gulpfile.js
-package.json
-Modules/myaccount.environment.ssp
+# specific files
+/gulpfile.js
+/package.json
+/Modules/myaccount.environment.ssp
+
+# all files by this name
+.DS_Store
 
 # patterns
 .*
