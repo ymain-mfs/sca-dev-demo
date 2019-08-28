@@ -1,0 +1,7 @@
+{
+	"gulp": {
+		"ssp-files": {
+			"SuiteScript/myfirst.ssp": "myfirst.ssp"
+		}
+	}
+}

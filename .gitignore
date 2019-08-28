@@ -1,0 +1,14 @@
+# directories
+gulp/
+LocalDistribution/
+Modules/suitecommerce/
+Modules/third_parties/
+
+# files
+gulpfile.js
+package.json
+Modules/myaccount.environment.ssp
+
+# patterns
+.*
+!/.gitignore

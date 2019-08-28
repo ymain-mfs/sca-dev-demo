@@ -1,0 +1,11 @@
+<%
+	var exerciseNbr = '09-04';
+%>
+
+var exerciseNbrClient = '<%= exerciseNbr %>';
+	
+alert('exercise number: ' + exerciseNbrClient);
+
+<%
+	response.setContentType("JAVASCRIPT");
+%>

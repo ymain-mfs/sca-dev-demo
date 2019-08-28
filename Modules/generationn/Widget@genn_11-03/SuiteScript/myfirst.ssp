@@ -1,0 +1,21 @@
+<html>
+	<%
+		var exerciseNbr = '09-03';
+		var exerciseIsEasy = true;
+		nlapiLogExecution('DEBUG', 'exercise number', exerciseNbr);
+	%>
+	<body>
+		<h1>This is my first (03) ssp</h1>
+		<h2>Exercise Number: <%= exerciseNbr %></h2>
+		<%if (exerciseIsEasy) {%>
+			<i>this exercise is easy</i>
+		<%} else {%>
+			<i>this exercise is hard</i>
+		<%}%>
+
+		<script>
+			var exerciseNbrClient = '<%= exerciseNbr %>'
+			alert('exercise number: ' + exerciseNbrClient);
+		</script>
+	</body>
+</html>

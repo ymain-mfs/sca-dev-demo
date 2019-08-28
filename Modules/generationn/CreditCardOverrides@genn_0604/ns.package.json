@@ -1,0 +1,11 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "overrides": {
+            "suitecommerce/CreditCard@2.0.1/Templates/creditcard.tpl" :
+            "Templates/creditcard.tpl"
+        }
+    }
+}

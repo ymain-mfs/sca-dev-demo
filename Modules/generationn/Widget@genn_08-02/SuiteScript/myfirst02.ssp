@@ -1,0 +1,16 @@
+<%
+	var exerciseNBR = '08-02';
+	var exerciseIsEasy = true;
+%>
+
+<html>
+	<body>
+		<h1>This is my first (02) ssp</h1>
+		<h2>Exercise Number: <%= exerciseNBR %></h2>
+		<%if (exerciseIsEasy) {%>
+			<i>this exercise is easy</i>
+		<%} else {%>
+			<i>this exercise is hard</i>
+		<%}%>
+	</body>
+</html>

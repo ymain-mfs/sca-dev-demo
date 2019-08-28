@@ -1,0 +1,12 @@
+{
+	"gulp": {
+		"ssp-files": {
+			"SuiteScript/myfirst.ssp": "myfirst.ssp",
+			"SuiteScript/child.ssp": "child.ssp",
+			"SuiteScript/parent.ssp": "parent.ssp"
+		},
+		"services": [
+			"SuiteScript/*.Service.ss"
+		]
+	}
+}

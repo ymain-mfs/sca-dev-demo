@@ -1,0 +1,8 @@
+
+<html>
+	<body>
+		<h1>Script run from child</h1>
+
+		<script src="/sca-dev-denali/child.ssp"></script>
+	</body>
+</html>
