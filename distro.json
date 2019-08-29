@@ -140,7 +140,7 @@
         "third_parties/twitter-bootstrap-sass": "3.3.1",
         "third_parties/twitter-typeahead": "0.10.5",
         "third_parties/underscore.js": "1.7.0",
-        "generationn/Widget": "genn_19-01"
+        "generationn/Widget": "genn_19-02"
     },
     "tasksConfig": {
         "local": {

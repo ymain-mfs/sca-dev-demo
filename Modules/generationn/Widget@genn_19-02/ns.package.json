@@ -1,0 +1,24 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "ssp-files": {
+            "SuiteScript/myfirst.ssp": "myfirst.ssp"
+           ,"SuiteScript/parent.ssp": "parent.ssp"
+           ,"SuiteScript/child.ssp": "child.ssp"
+        },
+        "services": [
+            "SuiteScript/*.Service.ss"
+        ],
+        "ssp-libraries": [
+            "SuiteScript/*.Model.js"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    }
+}

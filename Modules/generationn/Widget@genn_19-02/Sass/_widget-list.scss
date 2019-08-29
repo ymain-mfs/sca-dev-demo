@@ -1,0 +1,24 @@
+.widget-list-results-container
+{
+    @media (min-width: $screen-md-min) {
+
+        .recordviews-title {
+            width: 20%;
+        }
+
+        .recordviews-subject {
+            width: 15%;
+        }
+        .recordviews-creation-date {
+            width: 20%;
+            text-align: right;
+        }
+        .recordviews-date {
+            width: 25%;
+        }
+
+        .recordviews-status {
+            width: 20%;
+        }
+    }
+}
