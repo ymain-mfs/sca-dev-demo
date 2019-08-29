@@ -1,0 +1,70 @@
+// This is a comment in Sass
+// This Sass comment will not show in the generated CSS
+
+// Defines bordering and background for overall section of form
+// containing widget fields
+.widget-edit {
+    @extend .box-column-bordered;   // defined in _spacing.scss (atoms)
+}
+
+// Defines primary button for adding or updating a widget
+.widget-edit-form-button-submit {
+    @extend .button-primary;        // defined in _buttons.scss (atoms)
+    @extend .button-medium;         // defined in _buttons.scss (atoms)
+}
+
+// Defines secondary button for cancelling out of editing a widget
+.widget-edit-form-button-cancel {
+    @extend .button-secondary;      // defined in _buttons.scss (atoms)
+    @extend .button-medium;         // defined in _buttons.scss (atoms)
+
+    // Variables in Sass begin with a $ symbol
+    // Margin variables defined in _spacing.scss (variables)
+    // Variable is used instead of hardcoded number (good practice)
+    // An effective way to alter a value is to use a variable, and
+    //     add a multiplier as shown here
+    margin-top: $sc-base-margin * 2;
+
+    // $screen-sm-min is defined in third party module
+    // twitter-bootstrap-sass. Look in folder
+    // \assets\stylesheets\bootstrap\_variables.scss
+
+    // $screen-sm-min is 768px (tablet device). The media query
+    // of "min-width" is true for any screen at this size or larger,
+    // so the intent of this media query is to adjust based on
+    // screen sizes of tablets and larger. Defaults are for phone, so
+    // we size up to tablets and desktops. That is the SCA standard.
+    //
+    // On mobile devices the Cancel button will wrap below the button
+    // to add/update a widget. On tablets and larger we need to add a margin
+    // to the left to provide some spacing between the two buttons.
+    @media (min-width: $screen-sm-min) {
+        margin-left: $sc-base-margin * 4;
+        margin-top: $sc-base-margin * 2;
+    }
+}
+
+// Use for field labels
+// Use with the html label tag
+.widget-edit-fields-label {
+    @extend .input-label;       // defined in _forms.scss (atoms)
+}
+
+// Use for an asterisk representing a required field
+.widget-edit-fields-required {
+    @extend .input-required;    // defined in _forms.scss (atoms)
+}
+
+// Use for an input field
+.widget-edit-fields-input {
+    @extend .input-large        // defined in _forms.scss (atoms)
+}
+
+// Use for required legend at top of form
+// It is okay not to use a BaseSassStyle if one does not apply,
+//     but notice good use of variables
+.widget-edit-fields {
+    margin-bottom: $sc-base-margin * 4;
+    margin-top: $sc-base-margin * 2;
+    display: inline-block;
+}
