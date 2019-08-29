@@ -333,6 +333,11 @@ define('Configuration', function()
 			        ,	host:'he.ymain190801.net'
 			        ,	locale:'he_IL'
 			        } 
+			    ,   {
+			            title:'Spanish'
+			        ,	host:'es.ymain190801.net'
+			        ,	locale:'es_AR'
+			        } 
 			    ]
 			}
 		]
