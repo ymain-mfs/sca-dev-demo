@@ -110,6 +110,7 @@
         "suitecommerce/SiteSettings": "2.0.1",
         "suitecommerce/SocialSharing": "2.0.1",
         "suitecommerce/SspLibraries": "2.1.1",
+        "generationn/SspLibrariesOverrides": "genn_20-01",
         "suitecommerce/StoreItem": "2.0.1",
         "suitecommerce/Tracker": "2.0.2",
         "suitecommerce/TrackingServices": "2.0.1",
