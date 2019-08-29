@@ -722,6 +722,7 @@
                                 "myaccount-layout.scss"
                             ]
                         },
+                        "Widget",
                         "Address",
                         "Backbone.CollectionView",
                         "BackboneExtras",
