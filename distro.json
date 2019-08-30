@@ -66,7 +66,7 @@
         "suitecommerce/MenuTree": "2.0.1",
         "suitecommerce/Merchandising": "2.0.1",
         "suitecommerce/MyAccountApplication": "2.0.5",
-        "generationn/MyAccountApplicationOverrides": "genn_20-02",
+        "generationn/MyAccountApplicationOverrides": "genn_20-03",
         "suitecommerce/MyAccountApplication.SCA": "1.0.1",
         "suitecommerce/NativesExtras": "1.1.3",
         "suitecommerce/NavigationHelper": "2.0.4",
@@ -141,7 +141,7 @@
         "third_parties/twitter-bootstrap-sass": "3.3.1",
         "third_parties/twitter-typeahead": "0.10.5",
         "third_parties/underscore.js": "1.7.0",
-        "generationn/Widget": "genn_20-02"
+        "generationn/Widget": "genn_20-03"
     },
     "tasksConfig": {
         "local": {
