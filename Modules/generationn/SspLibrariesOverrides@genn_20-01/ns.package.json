@@ -3,5 +3,8 @@
         "ssp-libraries": [
             "SuiteScript/*.js"
         ]
-    }
+    },
+	"overrides": {
+		"suitecommerce/SspLibraries@2.1.1/SuiteScript/Configuration.js": "SuiteScript/Configuration.js"
+	}
 }
