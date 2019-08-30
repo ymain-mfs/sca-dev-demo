@@ -1,0 +1,14 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Cart@2.0.5/Templates/cart_confirmation_modal.tpl" : "Templates/cart_confirmation_modal.tpl",
+        "suitecommerce/Cart@2.0.5/Sass/_cart-confirmation-modal.scss" : "Sass/_cart-confirmation-modal.scss"
+    }
+}
