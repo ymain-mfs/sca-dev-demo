@@ -8,6 +8,7 @@ Modules/third_parties/
 /gulpfile.js
 /package.json
 /Modules/myaccount.environment.ssp
+/Modules/generationn/.DS_Store
 
 # all files by this name
 .DS_Store

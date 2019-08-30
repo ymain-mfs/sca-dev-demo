@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "templates": [
+            "Templates/*"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Header@1.0.3/Templates/header_menu_myaccount.tpl" : "Templates/header_menu_myaccount.tpl"
+    }
+}

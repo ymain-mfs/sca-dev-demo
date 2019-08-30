@@ -1,0 +1,14 @@
+{
+    "gulp": {
+        "ssp-files": {
+            "SuiteScript/myaccount.environment.ssp": "myaccount.environment.ssp"
+        },
+        "languages": [
+            "Languages/*.js"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/MyAccountApplication@2.0.5/SuiteScript/myaccount.environment.ssp" : "SuiteScript/myaccount.environment.ssp",
+        "suitecommerce/MyAccountApplication@2.0.5/Languages/es_AR.js" : "Languages/es_AR.js"
+    }
+}
