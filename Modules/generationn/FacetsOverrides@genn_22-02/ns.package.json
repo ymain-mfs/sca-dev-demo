@@ -1,0 +1,18 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/Facets@2.0.8/JavaScript/Facets.ItemCell.View.js" : "JavaScript/Facets.ItemCell.View.js",
+        "suitecommerce/Facets@2.0.8/Templates/facets_item_cell_grid.tpl" : "Templates/facets_item_cell_grid.tpl",
+        "suitecommerce/Facets@2.0.8/Sass/_facets-item-cell-grid.scss" : "Sass/_facets-item-cell-grid.scss"
+    }
+}
